@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8f8f8;
+    font-family: 'geologica', sans-serif;
+}
+
+.add{
+    font-size: 2rem;
+}
+
+.hr{
+    width: 8%;
+    height: 2.5px;
+    background-color: #144527;
+    border: none;
+    border-radius: 2rem;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.form input{
+    margin: 1rem;
+}
+
+.product-name, .description{
+    width: 30%;
+    height: 2.2rem;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: .1rem;
+    text-indent: 3px;
+}
+
+.add-btn{
+    background-color:#144527;
+    border: 1px solid #144527;
+    color: white;
+    border-radius: 4px;
+    transition: .5s ease-in-out;
+}
+
+.add-btn:hover{
+    background-color: transparent;
+    color: #144527;
+}
